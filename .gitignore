@@ -4,3 +4,5 @@ processed_dataset.csv
 random_forest_model.pkl
 feat_importance.png
 shap_besswarm.png
+processed_dataset.csv
+*.pkl
