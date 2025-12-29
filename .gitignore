@@ -1,2 +1,6 @@
 guide.md
 venv/
+processed_dataset.csv
+random_forest_model.pkl
+feat_importance.png
+shap_besswarm.png
