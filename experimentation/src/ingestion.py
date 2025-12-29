@@ -1,11 +1,11 @@
 """Simple file created to process the pcap files"""
 
 from scapy.all import rdpcap, DNS, IP, UDP, DNSQR
-import pandas as pandas
+import pandas as pd
 
 def parse_pcap_to_df(file_path):
     try:
-        packets = rdcap(file_path)
+        packets = rdpcap(file_path)
     except FileNotFoundError:
         print(f"File not found at the path: {file_path}")
         return pd.DataFrame()
