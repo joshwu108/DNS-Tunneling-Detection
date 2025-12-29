@@ -2,3 +2,5 @@ scapy
 pandas
 numpy
 scikit-learn
+shap
+matplotlib
