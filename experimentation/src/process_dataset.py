@@ -19,7 +19,6 @@ def process_and_label(directory, label):
             df = extract_features(df)
             df['label'] = label
             all_dfs.append(df)
-    
     if all_dfs:
         return pd.concat(all_dfs, ignore_index=True)
     else:
