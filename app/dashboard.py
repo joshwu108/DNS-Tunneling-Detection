@@ -28,7 +28,6 @@ except Exception as e:
 if 'packet_queue' not in st.session_state:
     st.session_state['packet_queue'] = queue.Queue()
 packet_queue = st.session_state['packet_queue']
-st.write("Rerun:", time.time())
 
 # Helper Functions for packet processing + predictions
 def packet_callback(pkt):
@@ -146,7 +145,6 @@ malicious_count = st.session_state.df_logs['is_malicious'].sum()
 metric_total.metric("Total Queries", queries_len)
 metric_malicious.metric("Malicious Detected", malicious_count, delta_color="inverse")
 
-st.write("Queue Size:", packet_queue.qsize())
 if not st.session_state.df_logs.empty:
     counts = (
         st.session_state.df_logs["is_malicious"]
