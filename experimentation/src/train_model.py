@@ -25,4 +25,4 @@ print(classification_report(y_test, y_pred))
 print(confusion_matrix(y_test, y_pred))
 
 # save 
-joblib.dump(clf, "../../random_forest_model.pkl")
+joblib.dump(clf, "../../models/random_forest_model.pkl")
