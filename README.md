@@ -82,5 +82,3 @@ The model works by extracting the following features from every query:
 ## Demo
 
 <img width="1480" height="946" alt="Screenshot 2026-01-08 at 10 06 52 PM" src="https://github.com/user-attachments/assets/3b60c16b-56b5-480f-908a-5ded66ab4a1c" />
-
-<img width="1512" height="982" alt="Screenshot 2026-01-08 at 9 47 21 PM" src="https://github.com/user-attachments/assets/09d55f55-38f8-4399-8ec5-d3eb033e4b4f" />
